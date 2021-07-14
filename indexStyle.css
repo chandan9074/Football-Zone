@@ -22,7 +22,7 @@ body {
 }
 .head-color1 {
   color: rgb(181, 184, 185);
-  animation: fade 1s ease-in-out;
+  animation: fade 2s ease-in-out;
   /* opacity: 0; */
 }
 @keyframes fade {
@@ -36,7 +36,7 @@ body {
 
 .head-color2 {
   color: rgb(19, 46, 53);
-  animation: fade 2s ease-in-out;
+  animation: fade 4s ease-in-out;
 }
 .head-img {
   width: 40%;
@@ -44,12 +44,12 @@ body {
 .position-btn {
   margin-bottom: 3.4vh;
   color: rgb(71, 160, 243);
-  animation: fade 3s ease-in-out;
+  animation: fade 6s ease-in-out;
 }
 .watch-btn {
   text-decoration: none;
   border: none;
-
+  cursor: pointer;
   font-size: 2vh;
   padding: 1vh 2vh;
   color: rgb(0, 0, 0);
