@@ -45,7 +45,6 @@ body {
   background-color: rgb(187, 149, 155);
   transition: transform 1s ease-in-out, box-shadow ease-in-out 1.5s,
     font-size 1s ease-in-out;
-  /* width: 10vh; */
 }
 .head-content-align:hover .watch-btn {
   transform: rotate(360deg);
@@ -67,7 +66,6 @@ body {
 .blogs-align {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  /* background-color: blueviolet; */
   grid-column-gap: 3.5vh;
   grid-row-gap: 3.5vh;
   width: 75%;
@@ -127,8 +125,12 @@ body {
   background-image: linear-gradient(rgb(53, 168, 172), rgb(142, 202, 204));
 }
 .league-logo {
-  width: 5%;
-  height: 5%;
+  width: 9vh;
+  height: 9vh;
+}
+.vs {
+  font-size: 3vh;
+  margin: 0 2.5vh;
 }
 .match {
   display: flex;
@@ -137,6 +139,12 @@ body {
   width: 72%;
   padding: 2vh;
   box-shadow: 0 0 0.3vh rgb(196, 194, 194);
+}
+.match-fleg {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 10%;
 }
 .match:nth-child(even) {
   background-color: rgb(219, 216, 216);
@@ -179,6 +187,7 @@ body {
 }
 .shop-card-align {
   display: flex;
+  justify-content: center;
 }
 .prod-card {
   box-shadow: 0 0 1vh rgb(180, 178, 178);
