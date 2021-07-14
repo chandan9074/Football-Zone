@@ -23,7 +23,6 @@ body {
 .head-color1 {
   color: rgb(181, 184, 185);
   animation: fade 2s ease-in-out;
-  /* opacity: 0; */
 }
 @keyframes fade {
   from {
@@ -107,7 +106,6 @@ body {
 
 .match-schedule {
   width: 100%;
-  /* height: 150vh; */
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -179,7 +177,6 @@ body {
 .time {
   margin: 1vh 0;
   font-size: 2vh;
-  /* font-weight: bold; */
 }
 .ticket-btn {
   font-size: 2.2vh;
