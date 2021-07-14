@@ -88,3 +88,75 @@
     font-size: 1.5vh;
   }
 }
+
+/* For tablet devices */
+
+@media only screen and (max-width: 768px) {
+  /* header part */
+
+  .head-content-align {
+    /* justify-content: center; */
+    height: 50vh;
+  }
+  .header-title {
+    font-size: 5vh;
+    line-height: 6vh;
+  }
+
+  /* blog part */
+
+  .blogs-align {
+    grid-template-columns: repeat(2, 1fr);
+    margin-bottom: 7vh;
+  }
+
+  /* match schedule */
+  .sche-head {
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 3vh;
+  }
+  .sche-description {
+    text-align: justify;
+    width: 100%;
+  }
+  .league-logo {
+    width: 4vh;
+    height: 4vh;
+  }
+  .vs {
+    font-size: 2vh;
+    margin: 0 1vh;
+  }
+  .country {
+    margin: 1vh 0;
+    font-size: 1vh;
+  }
+  .st-name {
+    margin: 1vh 0;
+    font-size: 2vh;
+    font-weight: bold;
+  }
+  .time {
+    margin: 1vh 0;
+    font-size: 1vh;
+  }
+  .address-details {
+    margin-left: 3vh;
+  }
+  .ticket-btn {
+    font-size: 1.8vh;
+    padding: 0.5vh 1.5vh;
+    border-radius: 0.5vh;
+  }
+
+  /* shop part */
+  .shop-card-align {
+    flex-direction: column;
+    align-items: center;
+  }
+  .prod-card {
+    margin-top: 3vh;
+    width: 35vh;
+  }
+}
