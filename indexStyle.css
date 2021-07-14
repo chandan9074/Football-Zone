@@ -22,9 +22,21 @@ body {
 }
 .head-color1 {
   color: rgb(181, 184, 185);
+  animation: fade 1s ease-in-out;
+  /* opacity: 0; */
 }
+@keyframes fade {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
 .head-color2 {
   color: rgb(19, 46, 53);
+  animation: fade 2s ease-in-out;
 }
 .head-img {
   width: 40%;
@@ -32,6 +44,7 @@ body {
 .position-btn {
   margin-bottom: 3.4vh;
   color: rgb(71, 160, 243);
+  animation: fade 3s ease-in-out;
 }
 .watch-btn {
   text-decoration: none;
@@ -42,7 +55,7 @@ body {
   color: rgb(0, 0, 0);
   font-weight: bold;
   border-radius: 1vh;
-  background-color: rgb(187, 149, 155);
+  background-image: linear-gradient(tomato, salmon);
   transition: transform 1s ease-in-out, box-shadow ease-in-out 1.5s,
     font-size 1s ease-in-out;
 }
