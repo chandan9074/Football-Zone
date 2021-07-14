@@ -20,20 +20,37 @@ body {
   line-height: 10vh;
   color: rgb(231, 233, 235);
 }
+.head-color1 {
+  color: rgb(181, 184, 185);
+}
+.head-color2 {
+  color: rgb(19, 46, 53);
+}
 .head-img {
   width: 40%;
 }
 .position-btn {
   margin-bottom: 3.4vh;
+  color: rgb(71, 160, 243);
 }
 .watch-btn {
   text-decoration: none;
-  font-size: 2.5vh;
+  border: none;
+
+  font-size: 2vh;
   padding: 1vh 2vh;
-  color: black;
+  color: rgb(0, 0, 0);
   font-weight: bold;
   border-radius: 1vh;
   background-color: rgb(187, 149, 155);
+  transition: transform 1s ease-in-out, box-shadow ease-in-out 1.5s,
+    font-size 1s ease-in-out;
+  /* width: 10vh; */
+}
+.head-content-align:hover .watch-btn {
+  transform: rotate(360deg);
+  box-shadow: 0 0 2vh rgb(185, 185, 185);
+  font-size: 2.5vh;
 }
 .fas {
   margin-left: 2vh;
@@ -217,12 +234,20 @@ body {
 .fab {
   font-size: 4vh;
   margin: 0 0.5vh;
+  color: rgb(133, 130, 130);
+}
+.fab:hover {
+  color: aliceblue;
+  cursor: pointer;
 }
 .footer-title {
-  font-size: 4vh;
+  font-size: 7vh;
   margin-left: 3vh;
+  color: aliceblue;
+  font-family: "Playball", cursive;
 }
 .copyright {
   margin: 2vh 0;
   font-size: 2vh;
+  color: rgb(248, 200, 195);
 }
